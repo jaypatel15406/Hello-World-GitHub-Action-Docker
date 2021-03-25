@@ -2,6 +2,8 @@
 
 This was "Hello World" in Action Using Docker Container And Also How You can Create your Customized Action . Actions are individual tasks that you can combine to create jobs and customize your workflow. You can create your own actions, and use and customize actions shared by the GitHub community. 
 
+![GitHub Actions](https://github.com/jaypatel15406/Hello-World-GitHub-Action-Docker/blob/main/action.png)
+
 ### What is GitHub Actions?
 [GitHub Actions](https://help.github.com/en/actions/getting-started-with-github-actions/about-github-actions) help you automate your software development workflows in the same place you store code and collaborate on pull requests and issues. You can write individual tasks, called actions, and combine them to create a custom workflow. 
 
@@ -45,10 +47,13 @@ branding:
 ## Output:
 This is Hello World in GitHub Action Using Docker and My Name is Jay Patel and I am Student Developer and I am Pursuing CSE with Specialization Of Big data And Analytics.
 ```
+
 ### If You Encountering Error Such as Stated Below:-
 ![Error Image](https://github.com/jaypatel15406/Hello-World-GitHub-Action-Docker/blob/main/actions-error-image.PNG)
 
 ### Solution of above error:-
+
+This error may occured due to **"Artifact and log retention"** Period is been set to **"90 Days"**. After these duration log may be retained. 
 
 Try to use ```git reflog``` Command for Refresing Logs of Current GitHub Action file. Click [GitHub Reflog](https://git-scm.com/docs/git-reflog) for more information.   
 
