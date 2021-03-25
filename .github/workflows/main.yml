@@ -1,0 +1,11 @@
+name: A Workflow For My Hello World Of GitHub Actions Using Dockerfile for Greeting
+on: push
+jobs:
+  build:
+    name: Hello world action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "Jay Patel"
