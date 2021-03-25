@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "This Was Hello World Of GitHub Actions Using Docker File for Greeting."
+author: "jaypatel15406@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
